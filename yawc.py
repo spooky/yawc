@@ -6,6 +6,7 @@ import shutil
 import pkgutil
 import importlib
 
+# TODO: refactor!
 class Site:
 	def __init__(self, package_name, output_path, template_dir='templates', static_path='static'):
 		self.package_name = package_name
