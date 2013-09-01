@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ title }} - sample</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="/css/site.css">
+    {% block head_script %}{% endblock %}
+  </head>
+  <body>
+    <header>
+      <nav><ul><li><a href="/">home</a></li></ul></nav>
+      {% block header %}{% endblock %}
+    </header>
+    <section>{% block main %}{% endblock %}</section>
+    <footer>This is a <a href="https://github.com/spooky/yawc">yawc</a> sample page</footer>
+
+    <script>
+      document.write('<script src="/js/'+('__proto__' in {} ? 'zepto' : 'jquery')+'.min.js"><\/script>')
+    </script>
+    {% block body_script %}{% endblock %}
+  </body>
+</html>

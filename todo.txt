@@ -1,0 +1,11 @@
+TODO:
+	- [] support for foo.py instead of foo/__init__.py
+	- [] template name support (not just index.html)
+	- [] add 'init' command
+	- [] add automatic package recognition / setting?
+
+DELEGATE (yeoman?):
+	- [] bundle scripts & styles
+	- [] rewrite urls (in .html, .js, .css)
+	- [] add css preprocessor support
+	- [] minimize files

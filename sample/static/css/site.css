@@ -1,0 +1,12 @@
+html { color: #999; font-family: Verdana, Arial, sans-serif; font-size: 14px; }
+header, section, footer { width: 960px; margin: 10px auto; }
+a { color: #555; }
+a:hover { color: #AAA; }
+img { border: none; display: inline-block; }
+h1, h2 { color: #444; }
+h1, h2, p, nav { margin-bottom: 0.6em; }
+h1 { font-size: 1.618em; }
+h2 { font-size: 1.3em; }
+header p { color: #66D; }
+header nav a { font-variant: small-caps; }
+footer { font-size: 0.618em; }

@@ -1,0 +1,22 @@
+{% extends "_master.html" %}
+
+{% block header %}
+
+	<p>This tempalte is used on subpage 3 and it's nested pages</p>
+	
+{% endblock %}
+
+{% block main %}
+  <div>
+    <h1>{{ title }}</h1>
+    {{ body }}
+  </div>
+
+  <div>
+	<p>And here are some subpage links</p>
+	<ul>
+		<li><a href="/subpage3/nesting1/">nested 1</a></li>
+		<li><a href="/subpage3/nesting2/">nested 2</a></li>
+	</ul>
+  </div>
+{% endblock %}
